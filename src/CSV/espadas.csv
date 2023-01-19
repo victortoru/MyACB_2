@@ -1,0 +1,7 @@
+"Nombre","Nivel","Descripción","Daño","Daño.prob","Estadistica","Encrontrar"
+Espada oxidada,1,Una espada vieja,2-5,.02,n/d,Entrada de Las minas
+Espadín de acero,1,Una hoja estándar,4-8,.02,Velocidad (+2),Recompensa del cofre
+Hoja de madera,1,madera tallada,3-7,.02,n/d,piso 10
+Sable pirata,2,sable grande,8-14,.02,Velocidad (+2),piso 50
+Sable de plata,2,Chapado en plata,8-15,.02,Defensa (+1),piso 50
+Alfanje,3,elaborada con esmero,9-17,.02,Velocidad (+2),piso 50

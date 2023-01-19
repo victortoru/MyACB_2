@@ -1,0 +1,6 @@
+"Nombre","Nivel","Descripción","Daño","Daño.prob","Estadistica","Encrontrar"
+Fémur,2,Un hueso viejo,6-11,.02,Velocidad (+2),piso 10
+Porra de madera,2,Una pieza de madera,9-16,.02,n/d,piso 90
+Maza de madera,3,pega fuerte,15-24,.02,Peso (+2),piso 60
+Vara de plomo,4,Increíblemente pesada,18-27,.02,Velocidad (−4),Pisos 41-79
+Garrote,5,El mejor compañero de un bruto.,27-40,.02,Daño crítico (+4),piso 80
