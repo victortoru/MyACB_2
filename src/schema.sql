@@ -1,6 +1,6 @@
 create table Dagas(
 id SERIAL PRIMARY KEY,
-Nombre TEXT(100),
+Nombre TEXT,
 Nivel TEXT,
 Descripción TEXT,
 Daño TEXT,
@@ -11,7 +11,7 @@ Encontrar TEXT,
 
 create table Porras(
 id SERIAL PRIMARY KEY,
-Nombre TEXT(100),
+Nombre TEXT,
 Nivel TEXT,
 Descripción TEXT,
 Daño TEXT,
@@ -22,7 +22,7 @@ Encontrar TEXT,
 
 create table Espadas(
 id SERIAL PRIMARY KEY,
-Nombre TEXT(100),
+Nombre TEXT,
 Nivel TEXT,
 Descripción TEXT,
 Daño TEXT,
