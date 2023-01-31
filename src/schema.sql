@@ -2,22 +2,22 @@ create table Dagas(
 id SERIAL PRIMARY KEY,
 Nombre TEXT,
 Nivel TEXT,
-Descripción TEXT,
-Daño TEXT,
-Daño.prob TEXT,
+Descripcion TEXT,
+Dano TEXT,
+Daño_prob TEXT,
 Estadística TEXT,
-Encontrar TEXT,
+Encontrar TEXT
 );
 
 create table Porras(
 id SERIAL PRIMARY KEY,
 Nombre TEXT,
 Nivel TEXT,
-Descripción TEXT,
+Descripcion TEXT,
 Daño TEXT,
-Daño.prob TEXT,
+Daño_prob TEXT,
 Estadística TEXT,
-Encontrar TEXT,
+Encontrar TEXT
 );
 
 create table Espadas(
@@ -26,7 +26,7 @@ Nombre TEXT,
 Nivel TEXT,
 Descripción TEXT,
 Daño TEXT,
-Daño.prob TEXT,
+Daño_prob TEXT,
 Estadística TEXT,
-Encontrar TEXT,
+Encontrar TEXT
 );

@@ -10,32 +10,13 @@ public class ACBMain {
 		
 		ConnectionFactory connectionFactory = ConnectionFactory.getInstance();
 		Connection c = connectionFactory.connect();
-
-		TeamController teamController = new TeamController(c);
-		PlayerController playerController = new PlayerController(c);
-		
-		
-//		Connection conn = null;
-//		Identity identity;
-//		int option;
-//		int intents = 0;
-//		DBAccessor dbaccessor = new DBAccessor();
-//		dbaccessor.init();
-//		while (intents < 3 && conn == null) {
-//			identity = menu.authenticate(intents);
-//			// prova de test
-//			identity.toString();
-//
-//			conn = dbaccessor.getConnection(identity);
-//			intents++;
-//		}
+		Comandos_bbdd comandos = new Comandos_bbdd();
 
 		int option = menu.mainMenu();
 		while (option > 0 && option < 12) {
 			switch (option) {
 			case 1:
-				teamController.showTeams();
-				// dbaccessor.mostraAutors();
+				comandos.crea_tabla();
 				break;
 
 			case 2:
