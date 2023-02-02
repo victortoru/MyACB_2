@@ -16,13 +16,13 @@ public class ACBMenu {
 
 			System.out.println(" \nMENU PRINCIPAL \n");
 
-			System.out.println("1. Mostra Armes");
-			System.out.println("2. Mostra jugadors d'un determinat equip");
-			System.out.println("3. Crea Equip");
-			System.out.println("4. Crea Jugador");
-			System.out.println("5. Crea Partit");
+			System.out.println("Escull una opció: ");
+			System.out.println("1. Eliminar y crear las tablas en la BD");
+			System.out.println("2. ");
+			System.out.println("3. ");
+			System.out.println("4. ");
+			System.out.println("5. ");
 			System.out.println("10. Sortir");
-			System.out.println("Esculli opció: ");
 			try {
 				option = Integer.parseInt(br.readLine());
 			} catch (NumberFormatException | IOException e) {

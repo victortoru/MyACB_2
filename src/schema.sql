@@ -1,32 +1,3 @@
-create table Dagas(
-id SERIAL PRIMARY KEY,
-Nombre TEXT,
-Nivel TEXT,
-Descripcion TEXT,
-Dano TEXT,
-Daño_prob TEXT,
-Estadística TEXT,
-Encontrar TEXT
-);
-
-create table Porras(
-id SERIAL PRIMARY KEY,
-Nombre TEXT,
-Nivel TEXT,
-Descripcion TEXT,
-Daño TEXT,
-Daño_prob TEXT,
-Estadística TEXT,
-Encontrar TEXT
-);
-
-create table Espadas(
-id SERIAL PRIMARY KEY,
-Nombre TEXT,
-Nivel TEXT,
-Descripción TEXT,
-Daño TEXT,
-Daño_prob TEXT,
-Estadística TEXT,
-Encontrar TEXT
-);
+CREATE TABLE Daga( id SERIAL PRIMARY KEY, nombre TEXT, nivel TEXT, descripcion TEXT, dano TEXT, dano_probabilidad TEXT, estadística TEXT, encontrar TEXT )
+CREATE TABLE Porra( id SERIAL PRIMARY KEY, nombre TEXT, nivel TEXT, descripcion TEXT, dano TEXT, dano_probabilidad TEXT, estadística TEXT, encontrar TEXT )
+CREATE TABLE Espada( id SERIAL PRIMARY KEY, nombre TEXT, nivel TEXT, descripcion TEXT, dano TEXT, dano_probabilidad TEXT, estadística TEXT, encontrar TEXT )

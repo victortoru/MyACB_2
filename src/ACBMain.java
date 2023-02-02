@@ -10,21 +10,24 @@ public class ACBMain {
 		
 		ConnectionFactory connectionFactory = ConnectionFactory.getInstance();
 		Connection c = connectionFactory.connect();
-		Comandos_bbdd comandos = new Comandos_bbdd();
+
+		DBController dbController = new DBController(c);
+		DagaController dagaController = new DagaController(c);
 
 		int option = menu.mainMenu();
 		while (option > 0 && option < 12) {
 			switch (option) {
 			case 1:
-				comandos.crea_tabla();
+				dbController.dropTables();
+				dbController.createTables();
 				break;
 
 			case 2:
-				// dbaccessor.mostraRevistes();
+				dagaController.insertDagas();
 				break;
 
 			case 3:
-				// dbaccessor.mostraRevistesArticlesAutors();
+				dagaController.showDagas();
 				break;
 
 			case 4:

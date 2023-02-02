@@ -1,6 +1,6 @@
 "Nombre","Nivel","Descripción","Daño","Daño.prob","Estadistica","Encrontrar"
 Navaja de talla,1,pequeña,1-3,.04,n/d,Pisos 1-19
 Puñal de hierro,1,común,2-4,.03,n/d,piso 10
-Aguja del viento,1,pequeña,1-5,.02,Daño crítico (+10),Peso (+5),piso 110
-Hoja élfica,2,comun,3-5,.04,n/d,piso 20
+Aguja del viento,1,pequeña,1-5,.02,Daño crítico (+10),piso 110
+Hoja élfica,2,común,3-5,.04,n/d,piso 20
 Pata de ladrón,4,grande,7-12,.04,Daño crítico (+25),piso 60
