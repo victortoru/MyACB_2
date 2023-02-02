@@ -24,8 +24,7 @@ public class DagaController {
 
 			for (ArrayList<String> fila : datos) {
 				pst.clearParameters();
-				pst.setString(1, fila.get(0));
-				pst.setString(2, fila.get(1));
+				pst.setString(1, fila.get(0));				pst.setString(2, fila.get(1));
 				pst.setString(3, fila.get(2));
 				pst.setString(4, fila.get(3));
 				pst.setString(5, fila.get(4));

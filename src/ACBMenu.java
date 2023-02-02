@@ -17,9 +17,9 @@ public class ACBMenu {
 			System.out.println(" \nMENU PRINCIPAL \n");
 
 			System.out.println("Escull una opció: ");
-			System.out.println("1. Eliminar y crear las tablas en la BD");
-			System.out.println("2. ");
-			System.out.println("3. ");
+			System.out.println("1. Crea las tablas en la BD");
+			System.out.println("2. Instertar Info en las Tablas");
+			System.out.println("3. Muestra la información de las tablas");
 			System.out.println("4. ");
 			System.out.println("5. ");
 			System.out.println("10. Sortir");
