@@ -15,10 +15,14 @@ public class DBController {
 
 	public void createTables() {
 		createTableDaga();
+		createTableEspadas();
+		createTablePorras();
 	}
 
 	public void dropTables(){
 		dropTableDaga();
+		dropTableEspadas();
+		dropTablePorras();
 	}
 
 	public void createTableDaga() {
@@ -54,7 +58,7 @@ public class DBController {
 	public void dropTableDaga() {
 		try {
 			Statement st = connection.createStatement();
-			st.executeUpdate("DROP TABLE IF EXISTS Daga");
+			st.executeUpdate("DROP TABLE IF EXISTS Daga cascade");
 			st.close();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
@@ -64,7 +68,7 @@ public class DBController {
 	public void dropTableEspadas() {
 		try {
 			Statement st = connection.createStatement();
-			st.executeUpdate("DROP TABLE IF EXISTS Espadas");
+			st.executeUpdate("DROP TABLE IF EXISTS Espadas cascade");
 			st.close();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
@@ -74,7 +78,7 @@ public class DBController {
 	public void dropTablePorras() {
 		try {
 			Statement st = connection.createStatement();
-			st.executeUpdate("DROP TABLE IF EXISTS Porraso");
+			st.executeUpdate("DROP TABLE IF EXISTS Porraso cascade");
 			st.close();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
