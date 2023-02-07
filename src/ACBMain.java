@@ -31,7 +31,7 @@ public class ACBMain {
 				break;
 
 			case 4:
-				// dbaccessor.altaAutor();
+				dbController.dropTableDaga();
 				break;
 
 			case 5:
