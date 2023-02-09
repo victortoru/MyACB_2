@@ -21,11 +21,12 @@ public class ACBMenu {
 			System.out.println("2. Insertar Info en las Tablas");
 			System.out.println("3. Muestra la información de las tablas");
 			System.out.println("4. Eliminar tablas");
-			System.out.println("5. Modificar tablas");
-			System.out.println("6. Eliminar Info de Tablas");
+			System.out.println("5. Filtrar Información");
+			System.out.println("6. Modificat Info de las tablas");
 			System.out.println("7. Modificat Info de las tablas");
 			System.out.println("8. Mostrar Tablas");
-			System.out.println("9. Sortir");
+			System.out.println("9. Filtrar Información");
+			System.out.println("10. Sortir");
 			try {
 				option = Integer.parseInt(br.readLine());
 			} catch (NumberFormatException | IOException e) {

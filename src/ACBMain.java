@@ -18,12 +18,11 @@ public class ACBMain {
 		while (option > 0 && option < 12) {
 			switch (option) {
 			case 1:
-				dbController.dropTables();
 				dbController.createTables();
 				break;
 
 			case 2:
-				dagaController.insertDagas();
+				dbController.rellenarTablas();
 				break;
 
 			case 3:
@@ -31,11 +30,11 @@ public class ACBMain {
 				break;
 
 			case 4:
-				dbController.dropTableDaga();
+				dbController.dropTables();
 				break;
 
 			case 5:
-				// dbaccessor.altaRevista();
+				dbController.filterinfo();
 				break;
 
 			case 6:
